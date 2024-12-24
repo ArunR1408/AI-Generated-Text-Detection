@@ -43,48 +43,6 @@ The model was trained on a dataset comprising 10,000 samples, evenly split betwe
 3.  **Embedding:** Converting tokens into numerical vectors.
 4.  **Padding/Truncation:** Standardizing sequence lengths.
 
-## Installation
-
-To set up the project environment, follow these steps:
-
-1.  **Clone the repository:**
-
-    ```bash
-    git clone <repository_url>
-    cd <repository_name>
-    ```
-
-2.  **Create a virtual environment (recommended):**
-
-    ```bash
-    python3 -m venv .venv
-    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-    ```
-
-3.  **Install dependencies:**
-
-    ```bash
-    pip install  pandas numpy matplotlib seaborn scikit-learn tensorflow nltk
-    ```
-
-## Usage
-
-1.  **Prepare Data:**
-    *   Place your CSV dataset file in a `data` directory within the project.
-    *   Ensure the dataset has columns named `text` (for the text content) and `generated` (0 for human, 1 for AI).
-2.  **Run the Script:**
-
-    ```bash
-    python AIDetection.py 
-    ```
-    or
-    ```bash
-        jupyter notebook
-    ```
-
-3. **View Results:**
-    * The script will output the training/validation progress, as well as the model's accuracy, loss and save the model weights.
-    * It will also display and save the confusion matrix.
 
 ## Model Architecture
 
