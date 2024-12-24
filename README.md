@@ -83,8 +83,8 @@ The model achieved the following performance metrics on the test set:
 
     ```
                  Predicted Human   Predicted AI
-    Actual Human     90.03\%         9.97\%
-    Actual AI        10.03\%         89.97\%
+    Actual Human     90.03        9.97
+    Actual AI        10.03        89.97
     ```
     The model achieved an overall accuracy of 94%.
 
